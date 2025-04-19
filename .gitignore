@@ -31,13 +31,9 @@ coverage/
 # Expo
 .expo/
 web-build/
-
-# expo
-dist/
-web-build/
 expo-env.d.ts
 
-# native
+# Native
 *.orig.*
 *.jks
 *.p8
@@ -45,20 +41,57 @@ expo-env.d.ts
 *.key
 *.mobileprovision
 
-# metro
+# Metro
 .metro-health-check*
 
-# debug
+# Debug
 npm-debug.*
 yarn-debug.*
 yarn-error.*
 
-# macos
+# macOS
 .DS_Store
 *.pem
 
-# local env files
+# Local env files
 .env*.local
 
-# typescript
+# TypeScript
 *.tsbuildinfo
+
+# Gradle files
+.gradle/
+build/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Log/OS Files
+*.log
+
+# Android Studio generated files and folders
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+output.json
+
+# IntelliJ
+*.iml
+.idea/
+misc.xml
+deploymentTargetDropDown.xml
+render.experimental.xml
+
+# Keystore files
+*.jks
+*.keystore
+
+# Google Services (e.g. APIs or Firebase)
+google-services.json
+
+# Android Profiling
+*.hprof
+
+# Temporary file from Android build
+1c529b7a68ea0f777b4124c506f3b196fe4c4ddd
